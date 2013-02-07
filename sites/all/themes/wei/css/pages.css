@@ -82,7 +82,7 @@ body {
     outline: medium none;
     position: inherit;
 }
-.rooms-rate-btn	{ display:inline-block; width:53px; height:100%; position:absolute; top:0; background:#8e8b16 url(../images/rooms-and-rates-btn.png) no-repeat center;}
+.rooms-rate-btn	{ display:inline-block; width:53px; height:170px; position:absolute; top:0; right:0; background:#8e8b16 url(../images/rooms-and-rates-btn.png) no-repeat center;}
 #header .section {
     margin: 0 auto;
     width: 1000px;
@@ -94,7 +94,7 @@ body {
 #header .header-section {
   float: left;
 }
-.flt_Rt ul.links{ width:80px; display:inline-block; list-style:none; padding:0; margin:0; padding-right:17px; margin-right:18px; background:url(../images/divider-1.jpg) no-repeat right 0px; }
+.flt_Rt ul.links{ width:80px; display:inline-block; list-style:none; padding:0; margin:0; padding-right:17px; margin-right:18px; background:url(../images/divider-1.jpg) no-repeat right 0px;  float: left;}
 .flt_Rt ul li{
     display: block;
     margin-bottom: 12px;
@@ -113,8 +113,9 @@ body {
 .region-header #block-block-11 {
   float: left;
   width: 200px;
+    margin-right: 10px;
 }
-.social-links{ display:inline-block; list-style:none; padding:0; margin:0; padding:19px 0 8px 0;}
+.social-links{ display:inline-block; list-style:none; margin:0; padding:5px 0 0;}
 .social-links li		{ display:inline-block; float:left; margin-right:3px;}
 
 #header #search-block-form #edit-search-block-form--2{
@@ -124,6 +125,7 @@ body {
     padding: 4px 9px;
     width: 152px;
     color:#fff;
+    font-size: 13px;
 }
 #header #search-block-form #edit-submit{
   display:none;
@@ -134,6 +136,7 @@ body {
     height: 40px;
     width: 200px;
     margin-top:15px;
+    margin-bottom: 5px;
 }
 #navigation{
     background: url("../images/nav-bg.png") repeat-x scroll center bottom transparent;
@@ -153,7 +156,9 @@ body {
     background: url("../images/nav-divider.jpg") no-repeat scroll right 2px transparent;
     display: inline-block;
     float: left;
-    padding: 0 10px 0 8px;
+}
+#navigation ul li.last {
+    background: none !important;
 }
 #navigation ul li a {
     color: #466276;
@@ -164,7 +169,7 @@ body {
     }
 #banner-section{
     background: url("../images/banner-bg.jpg") no-repeat scroll center top #E9E8E5;
-    
+    margin-top: -2px;
     min-height: 333px;
     position: relative;
     z-index: 1;
@@ -173,6 +178,11 @@ body {
     margin: 0 auto;
     width: 1000px;
 }
+
+#header_top .region-header-top {
+     position: relative;
+}
+
 #banner-section .view-home-page-slideshow img{
   height: 334px;
 }
@@ -218,7 +228,7 @@ body {
  */
 #header {
   clear: both;
-  padding: 0px 0 16px;
+  padding:0 0 5px;
 }
 
 #header .section {
@@ -411,3 +421,10 @@ ul.links li {
 }
 #block-block-15{ margin:0px !important;}
 #block-block-15 p{ margin:0px !important;}
+
+
+
+
+
+#block-search-form, #block-search {margin-bottom:0px !important;}
+.search-form {margin-bottom:0px !important;}

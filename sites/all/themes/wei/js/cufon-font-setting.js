@@ -5,7 +5,7 @@
 
 Cufon.replace('#navigation ul li a', { fontFamily: 'GothamLight', hover: 'true' });
 Cufon.replace('.rooms-rate-btn, #block-block-11, #header_top #block-menu-menu-top-left-menu, #header_top #block-menu-menu-top-right-menu, #header_top #block-block-2, .topSect .topPart a, .botPart .rhtSect ul.links li a, .midSect .textConWrap .rhtSect .btn, ul.footer-nav li a, #footer .midSect .ttl h3, #footer .midSect .ttl .num, .breadcum ul li a, .postCont h2, .postCont h3, .small-banner a.reserv-btn, ul.info-list li a .name, ul.link-list-3 li a, .breadcum .breadcum h6, #slides h5, #slides .slide ul.tabs li a, .link-btn a', { fontFamily: 'GothamBook', hover: 'true' });
-Cufon.replace('.banner .slide .textPart b, .textContent h3, .textContentIn h1, .small-banner h3', { fontFamily: 'Foglihten' });
+Cufon.replace('#block-views-home-page-slideshow-block .views-field-title, .banner .slide .textPart b, .textContent h3, .textContentIn h1, .small-banner h3', { fontFamily: 'Foglihten' });
 Cufon.replace('ul.link-list-1 li a', { fontFamily: 'MyriadProSemibold', hover: 'true' });
 Cufon.replace('.textContent .lftSet .halfSect h6, .textContent .lftSet p, ul.accordian-menu li a', { fontFamily: 'MyriadProLight', hover: 'true' });
 Cufon.replace('#footer .midSect .textBox h5, #footer .midSect .textBox h4 .name', { fontFamily: 'MyriadProSemibold'});

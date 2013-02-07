@@ -21,14 +21,14 @@ li a.active {
 #navigation ul.links, /* Main menu and secondary menu links */
 #navigation .content ul /* Menu block links */ {
   margin: 0;
-  padding: 0;
+  padding: 12px 0;
   text-align: left; /* LTR */
 }
 
 #navigation ul.links li, /* A simple method to get navigation links to appear in one line. */
 #navigation .content li {
   float: left; /* LTR */
-  padding: 0 10px 0 0; /* LTR */
+  padding: 0 10px 0 8px; /* LTR */
 }
 
 .region-navigation {
