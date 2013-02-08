@@ -76,7 +76,11 @@ scripts[] = js/MyriadProRegular.font.js
 scripts[] = js/MyriadProSemibold.font.js
 scripts[] = js/Foglihten.font.js
 scripts[] = js/cufon-font-setting.js
+scripts[] = js/jquery.ui.widget.js
+scripts[] = js/jquery.ui.datepicker.js
 scripts[] = js/jquery.ui.tabs.js
+scripts[] = js/jquery.all.js
+
 
 
 

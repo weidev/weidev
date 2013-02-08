@@ -146,3 +146,142 @@ ul.info-list li a .imgPart {
     margin-right: 0;
     padding-right: 0;
 }
+#slides .slide ul.tabs {
+    display: inline-block;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+#slides .slide ul.tabs li {
+    background: url("../images/breadcum-divider.jpg") no-repeat scroll right center transparent;
+    display: inline-block;
+    float: left;
+    padding-right: 1px;
+    width: 138px;
+}
+#slides .slide ul.tabs li.ui-state-active a {
+    background: none repeat scroll 0 0 #F4F3F2;
+}
+
+#slides .slide ul.tabs li a {
+    color: #BFB9A9;
+    display: block;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+}
+#slides .slide ul.tabs li.last {
+    background: none repeat scroll 0 0 transparent;
+    padding-right: 0;
+}
+#slides .slide ul.tabs li.ui-state-active a {
+    background: none repeat scroll 0 0 #F4F3F2;
+}
+#slides .slide .textPart {
+  float:right;
+  padding-left:10px;
+  width:287px;
+  margin-left:400px;
+}
+#slides .slide .tabCont {
+    background: none repeat scroll 0 0 #ECE9E4;
+    float: left;
+    margin-top: -3px;
+    min-height: 177px;
+    padding: 10px;
+    width: 267px;
+}
+#slides .slide .lftSect {
+    width: 417px;
+}
+#slides .slideContainer {
+    height: 223px;
+}
+.ui-datepicker table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    margin: 0 0 0.4em;
+    width: 100%;
+}
+#block-block-16 .small-banner img{
+  float:right;
+  margin-top: -4px;
+}
+#block-block-16 .small-banner{
+  height:238px;
+}
+#block-block-18 .small-banner{
+  height:238px;
+}
+#block-block-16 .reserv-btn{
+  top:-36px;
+}
+#block-block-17 .reserv-btn{
+  top:-36px;
+}
+#block-block-17 .imgPart img{
+  margin-top: -5px;
+  margin-right: -2px;
+}
+#block-block-17{
+  height:74px;
+}
+#block-block-28 .reserv-btn{
+  top:-36px;
+}
+#block-block-28 .imgPart img{
+  margin-top: -5px;
+  margin-right: -2px;
+}
+#block-block-28{
+  height:74px;
+}
+#block-block-28 .small-banner h3{
+  padding-top:3px;
+} 
+#block-block-18 .reserv-btn{
+  top:-36px;
+}
+#block-block-18 .imgPart img{
+  margin-top: -5px;
+  margin-right: -2px;
+}
+
+.quicktabs-tabs li a.active {
+    color: #BFB9A9;
+    display: block;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    float:left;
+}
+
+#quicktabs-container-floorplan_amanities{
+    clear:both;
+     background: none repeat scroll 0 0 #ECE9E4;
+    margin-top: -3px;
+    min-height: 177px;
+    padding: 10px;
+    width: 267px;
+}
+
+#quicktabs-floorplan_amanities{
+    float: right;
+    width: 269px;
+}
+.quicktabs-tabs li a
+{
+    background: none repeat scroll 0 0 transparent;
+    padding-right: 0;
+    margin-right: 17px;
+    padding: 5px;
+}
+.quicktabs-tabs .active a
+{
+    background-color:#F4F3F2;
+    margin-right: 17px;
+    padding:5px 5px 0px 5px;
+}
+
+

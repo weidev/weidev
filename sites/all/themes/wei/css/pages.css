@@ -170,7 +170,7 @@ body {
 #banner-section{
     background: url("../images/banner-bg.jpg") no-repeat scroll center top #E9E8E5;
     margin-top: -2px;
-    min-height: 333px;
+    height: 333px;
     position: relative;
     z-index: 1;
 }
@@ -199,7 +199,7 @@ body {
 }
 #banner-section .view-home-page-slideshow .views-field-title{
     bottom: 25px;
-    left: 40px;
+    left: 30px;
     position: absolute;
 }
 
@@ -225,18 +225,22 @@ body {
 #mini-panel-footer_panel .pane-block-1 {
     border-right: 1px solid #92908B;
     float: left;
-    margin-right: 20px;
-    height: 160px;
+    height: 137px;
+    margin-right: 18px;
     padding-right: 20px;
+}
+#mini-panel-footer_panel .pane-block-1 span {
+    display:none;
 }
 #mini-panel-footer_panel .pane-block-3 {
     padding-left: 3px;
     padding-right: 23px;
-    width: 294px;
+    width: 308px;
     border-right: 1px solid #92908B;
     float: left;
     margin-right: 20px;
-    min-height: 130px;
+    min-height: 128px;
+    margin-bottom: 20px;
 }
 #mini-panel-footer_panel.textBox .textBox-2 {
     padding-left: 3px;
@@ -385,8 +389,12 @@ div#site-name /* The name of the website */ {
 }
 
 .breadcrumb /* The path to the current page in the form of a list of links */ {
-  padding-bottom: 0; /* Undo system.css */
+  padding-top:10px; /* Undo system.css */
+  padding-bottom:10px; /* Undo system.css */
   text-transform:uppercase;
+  border-bottom: 1px solid #E9E9E5;
+  border-top: 1px solid #E9E9E5;
+  font-size:12px !important;
 }
 
 h1.title, /* The title of the page */
@@ -521,7 +529,7 @@ ul.links li {
 .footer-wrapper #mini-panel-footer_panel .textBox h4 .name { display:inline-block; float:left; padding-top:6px; }
 .footer-wrapper #mini-panel-footer_panel .textBox p	{ color:#5b5954; font-size:9px; margin-bottom:15px;}
 .footer-wrapper #mini-panel-footer_panel .textBox .fbPart	{ width:140px;}
-.footer-wrapper #mini-panel-footer_panel .textBox .text	{ width:147px;}
+.footer-wrapper #mini-panel-footer_panel .textBox .text	{  margin-left: 10px; width:147px;}
 .footer-wrapper .panel-flexible .panel-separator	{ margin:0px;}
 .pane-menu-menu-secondary-menu ul.menu {
     display: inline-block;
@@ -669,6 +677,7 @@ a {outline: 0 none;
     padding: 0;
     width: 249px;
     margin-right: 751px;
+    font-size:12px;
 }
 
 .sidebar-first #main #content {
@@ -692,15 +701,15 @@ a {outline: 0 none;
 #block-block-25 ul{
     display: inline-block;
     list-style: none outside none;
-    margin: 0 0 0 10px;
-    padding: 0;
-    width: 100%;
+	margin: 0 0 0 10px;
+    padding: 0 2px 0 0;
+    width: 99%;
+    text-align:right;
 }
-#block-block-25 ul li {
+#block-block-25 .content ul li {
     display: block;
     height: 71px;
     margin: 0 4px 3px 0;
-    width: 326px;
 }
 #block-block-12 {
     float: left;
@@ -748,7 +757,7 @@ a {outline: 0 none;
 }
 
 .not-front #content{
-    color: #807862;
+    /*color: #807862;*/
     font-size: 12px;
     line-height: 19px;
 }
@@ -806,3 +815,34 @@ ul.info-list li a							{ display:inline-block; font-size:14px; color:#7c7058; }
 ul.info-list li a span						{ display:block; }
 ul.info-list li a .name						{ display:block; margin-bottom:2px; }
 ul.info-list li a .imgPart					{ display:block; font-size:1px; line-height:1px;}
+#mini-panel-footer_panel .pane-block-7 h5 {margin:0px 0 5px 0;}
+#mini-panel-footer_panel .pane-block-8 h5 {margin:0px 0 5px 0;}
+#mini-panel-footer_panel .pane-block-8 span {display:none;}
+#mini-panel-footer_panel .pane-block-7 p {display:none;}
+.panels-flexible-region-1-left {
+    float: left;
+    width: 73%;
+}
+#node-15 .postCont-new ul.info-list li {
+    margin-right: 11px;
+}
+#node-15 .postCont-new ul.info-list li.last {
+    margin-right: 0px;
+}
+#block-block-22 th {
+    border-bottom: medium none;
+    padding: 0;
+    text-align: center;
+    color: #5B5954;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.ui-widget {
+    font-family: Arial,Helvetica,sans-serif
+    font-size: 1.1em;
+}
+.no_bg{
+    background: none repeat scroll 0 0 transparent !important;
+    margin-bottom: 5px  !important;
+    padding-bottom: 0;
+    margin-top:15px !important;
+}
