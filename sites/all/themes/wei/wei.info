@@ -76,6 +76,7 @@ scripts[] = js/MyriadProRegular.font.js
 scripts[] = js/MyriadProSemibold.font.js
 scripts[] = js/Foglihten.font.js
 scripts[] = js/cufon-font-setting.js
+scripts[] = js/jquery.ui.tabs.js
 
 
 
@@ -94,14 +95,17 @@ regions[sidebar_first]  = First sidebar
 regions[sidebar_second] = Second sidebar
 regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
+regions[page_top_wrapper] = Page Top Wrapper
+regions[category_block] = Category Blocks
 regions[content]        = Content
 regions[header]         = Header
 regions[header_top]     = Header Top
 regions[banner]         = Banner Section
+regions[footer_top]     = Footer Top
 regions[footer]         = Footer
 regions[bottom]         = Page bottom
-regions[page_top]       = Page top
-regions[page_bottom]    = Page bottom
+
+
 
 
 

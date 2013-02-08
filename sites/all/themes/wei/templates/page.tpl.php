@@ -134,24 +134,36 @@
     <?php endif; ?>
 
 </div> <!-- /#header-wrapper -->
-
-<div id ="banner-section"><?php print render($page['banner']); ?></div>
+<?php if(drupal_is_front_page()) { ?>
+  <div id ="banner-section"><?php print render($page['banner']); ?></div>
+<?php } ?>
 
 <div id="page-wrapper"><div id="page">
-
- 
-
-  <div id="main-wrapper"><div id="main" class="clearfix<?php if ($main_menu || $page['navigation']) { print ' with-navigation'; } ?>">
-
-    <div id="content" class="column"><div class="section">
-      <?php print render($page['highlighted']); ?>
-      <?php print $breadcrumb; ?>
-      <a id="main-content"></a>
+	<?php if(!drupal_is_front_page()) { ?>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
         <h1 class="title" id="page-title"><?php print $title; ?></h1>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
+    <?php } ?>
+  <div id ="page-top">
+    <?php print render($page['page_top_wrapper']); ?>
+    <?php print $breadcrumb; ?>
+    <?php if(!drupal_is_front_page()):?>
+    <?php print render($page['category_block']); ?>
+    <?php endif; ?>
+  </div>
+  <div id="main-wrapper"><div id="main" class="clearfix<?php if ($main_menu || $page['navigation']) { print ' with-navigation'; } ?>">
+	<?php if(drupal_is_front_page()) { ?>
+     <?php print render($title_prefix); ?>
+      <?php if ($title): ?>
+        <h1 class="title" id="page-title"><?php print $title; ?></h1>
+      <?php endif; ?>
+      <?php print render($title_suffix); ?>
+	<?php } ?>
+    <div id="content" class="column"><div class="section">
+      <?php print render($page['highlighted']); ?>
+      <a id="main-content"></a>
       <?php print $messages; ?>
       <?php if ($tabs = render($tabs)): ?>
         <div class="tabs"><?php print $tabs; ?></div>
@@ -171,9 +183,13 @@
 
   </div></div><!-- /#main, /#main-wrapper -->
 
-  <?php print render($page['footer']); ?>
-
 </div></div><!-- /#page, /#page-wrapper -->
+<div class="footer-wrapper">
+  <div class="footer_top_wrapper">
+  <?php print render($page['footer_top']); ?>
+  </div>
+    <?php print render($page['footer']); ?>
+  </div>
 
 <div class="bottom-wrapper">
     <div class="pagebottom">

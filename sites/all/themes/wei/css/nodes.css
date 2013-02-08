@@ -67,3 +67,82 @@ h2.node-title /* Node title */ {
 
 .node ul.links /* Node links. See also the ul.links declaration in the pages.css. */ {
 }
+
+
+.ui-datepicker td.ui-datepicker-week-end .ui-state-default {
+    background: none repeat scroll 0 0 #EAE6AC;
+    border: 1px solid #FFFFFF;
+}
+
+.ui-datepicker td .ui-state-default {
+    background: none repeat scroll 0 0 #A2C4D9;
+    border: 1px solid #FFFFFF;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    display: block;
+    padding: 0.2em;
+    text-align: right;
+    text-decoration: none;
+}
+.ui-widget-header {
+  background:none;
+}
+.ui-corner-all{
+  border:none;
+}
+
+ul.info-list {
+    display: inline-block;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.postCont-new ul.info-list li {
+    margin-right: 11px;
+}
+
+ul.info-list li {
+    display: inline-block;
+    float: left;
+    margin: 0 20px 12px 0;
+}
+.postCont-new ul.info-list li {
+    margin-right: 6px;
+}
+ul.info-list li a {
+    color: #7C7058;
+    display: inline-block;
+    font-size: 14px;
+}
+ul.info-list li a .name {
+    display: block;
+    margin-bottom: 2px;
+}
+ul.info-list li a .imgPart {
+    display: block;
+    font-size: 1px;
+    line-height: 1px;
+}
+#slides {
+    background: url("../images/border-hor.jpg") repeat-x scroll center bottom transparent;
+    margin-bottom: 0;
+    padding-bottom: 18px;
+}
+.link-btn a {
+    background: url("../images/breadcum-divider.jpg") no-repeat scroll right center transparent;
+    color: #7C7058;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 14px;
+    padding-right: 16px;
+}
+.link-btn {
+    display: inline-block;
+    padding-left: 124px;
+}
+.breadcum ul li.last {
+    background: none repeat scroll 0 0 transparent;
+    margin-right: 0;
+    padding-right: 0;
+}

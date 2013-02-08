@@ -145,15 +145,17 @@ function ctools_block_content_type_render($subtype, $conf) {
     $block = (object) $block;
   }
 
-  if (empty($block)) {
-    return;
+  if (is_array($block)) {
+    $block = (object)$block;
   }
 
   $block->module = $module;
   $block->delta = $delta;
 
   if ($module == 'block') {
-    $block->title = $info->title;
+    if (isset($info->title)){
+      $block->title = $info->title;
+    }
   }
   else if (isset($block->subject)) {
     $block->title = $block->subject;
