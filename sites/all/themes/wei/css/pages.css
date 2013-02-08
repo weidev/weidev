@@ -130,6 +130,10 @@ body {
 #header #search-block-form #edit-submit{
   display:none;
 }
+#header #search-block-form #edit-submit--2{
+  display:none;
+}
+
 #header #block-block-13
 {
     float: left;
