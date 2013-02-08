@@ -454,7 +454,7 @@ ui-datepicker table {
      margin-top: 0;
     overflow: hidden;
     padding-top: 7px;
-    margin-bottom:0px;
+    margin-bottom:2px;
     margin-left:0px;
     padding-left:0px;
 }
@@ -467,4 +467,7 @@ padding: 0 20px;
 background: url("../images/breadcum-divider.jpg") no-repeat scroll right center transparent;
  padding: 0 22px 0 20px;
     width: 95px;
+}
+#node-15 #quicktabs-floorplan_amanities p{
+    margin:0px;
 }

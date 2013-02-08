@@ -261,7 +261,7 @@ ul.info-list li a .imgPart {
     clear:both;
      background: none repeat scroll 0 0 #ECE9E4;
     margin-top: -3px;
-    min-height: 177px;
+    min-height: 160px;
     padding: 10px;
     width: 267px;
 }
@@ -281,7 +281,7 @@ ul.info-list li a .imgPart {
 {
     background-color:#F4F3F2;
     margin-right: 17px;
-    padding:5px 5px 0px 5px;
+    padding: 5px;
 }
 
 
